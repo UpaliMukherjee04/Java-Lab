@@ -1,7 +1,7 @@
 
 public class CharCount {
     public static void main(String args[]){
-        int count=0;
+        int c=0;
         
         StringBuffer str= new StringBuffer();
         str.append("It is raining in Pune today");
@@ -14,11 +14,11 @@ public class CharCount {
             for (int j=0;j<s.length();j++){
                 
                 if (s.charAt(j) == ch){
-                    count+=1;
+                    c+=1;
                 }
             }
-            System.out.println(ch+" occurs "+count+" times in the string");
-            count=0;
+            System.out.println(ch+" occurs "+c+" times in the string");
+            c=0;
             }
              
         }
