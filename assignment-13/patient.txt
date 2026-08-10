@@ -1,0 +1,4 @@
+Patient ID: 2001
+Name: Anita Verma
+Age: 34
+Diagnosis: Viral Fever
